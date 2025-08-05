@@ -2,7 +2,7 @@
   "name": "wms-frontend",
   "version": "1.0.0",
   "description": "Warehouse Management System Frontend",
-  "private": true,
+  "type": "module",
   "dependencies": {
    
     "react": "^18.2.0",
