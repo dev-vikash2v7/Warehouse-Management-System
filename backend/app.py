@@ -328,5 +328,11 @@ def get_data_preview():
         logger.error(f"Error getting data preview: {e}")
         return jsonify({'error': str(e)}), 500
 
+@app.route('/', methods=['GET'])
+def start():
+        return jsonify({
+            'who is the coder':  'vikash'
+        })
+    
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000) 
