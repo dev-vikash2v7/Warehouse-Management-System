@@ -10,13 +10,6 @@
   <h3 align="center">Warehouse Management System Development</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 📲 <a name="website" href="https://drive.google.com/file/d/1tr2EDPdSyIJ-Ff2IrrLEyvesaWo1b-vB/view?usp=drive_link">[Website]</a>
 
 ## <a name="introduction">🤖 Introduction</a>
  <div>
