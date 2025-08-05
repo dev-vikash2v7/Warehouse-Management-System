@@ -1,3 +1,33 @@
+<div align="center">
+  <div>
+    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+     <img src="https://img.shields.io/badge/Python-black?style=for-the-badge&logoColor=white&logo=python&color=yellow" alt="python" />
+    <img src="https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=green" alt="mongodb" />
+   <img src="https://img.shields.io/badge/Tkinter-red?style=for-the-badge&logoColor=blue&logo=firebase&color=red" alt="tkinter" />
+   <img src="https://img.shields.io/badge/OpenAI-white?style=for-the-badge&logoColor=white&logo=firebase&color=white" alt="openai" />
+   
+  </div>
+  <h3 align="center">Warehouse Management System Development</h3>
+</div>
+
+## 📋 <a name="table">Table of Contents</a>
+
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 📲 <a name="website" href="https://drive.google.com/file/d/1tr2EDPdSyIJ-Ff2IrrLEyvesaWo1b-vB/view?usp=drive_link">[Website]</a>
+
+## <a name="introduction">🤖 Introduction</a>
+ <div>
+<p>
+Python application with a graphical user interface (GUI) and ReactJS website that allows users to easily map Stock Keeping Units (SKUs) to Master SKUs (MSKUs).
+
+</p>
+  
+</div>
+
+
 ## 🛠️ Tech Stack
 
 - **Backend**: Python 3.10+, Flask/FastAPI
@@ -22,8 +52,8 @@ Baserow	        -        Visual data interface for non-technical users
 
 1. **Clone and Setup**
 ```bash
-git clone <repository-url>
-cd wms-mvp
+git clone https://github.com/dev-vikash2v7/Warehouse-Management-System.git
+cd Warehouse-Management-System
 ```
 
 2. **Backend Setup**
