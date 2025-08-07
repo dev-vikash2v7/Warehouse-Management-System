@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, FileText, CheckCircle, AlertCircle, Play } from 'lucide-react';
-import axios from './axios';
+import axios from 'axios';
 
 export const UploadPage = () => {
   const [mappingFile, setMappingFile] = useState(null);
@@ -52,7 +52,7 @@ export const UploadPage = () => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post(`/api/upload/${endpoint}`, formData, {
+      const response = await axios.post(`https://warehouse-management-system-isjh.onrender.com/api/upload/${endpoint}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -80,7 +80,7 @@ export const UploadPage = () => {
       await uploadFile(salesFile, 'sales');
       
       // Process mapping
-      const response = await axios.post('/api/process');
+      const response = await axios.post('https://warehouse-management-system-isjh.onrender.com/api/process');
       
       console.log('Response data:', response.data);
       console.log('Stats:', response.data.stats);
@@ -110,7 +110,7 @@ export const UploadPage = () => {
 
   const exportResults = async (format = 'csv') => {
     try {
-      const response = await axios.post('/api/export', { format }, {
+      const response = await axios.post('https://warehouse-management-system-isjh.onrender.com/api/export', { format }, {
         responseType: 'blob'
       });
       
