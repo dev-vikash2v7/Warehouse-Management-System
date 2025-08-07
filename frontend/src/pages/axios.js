@@ -1,11 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://warehouse-management-system-isjh.onrender.com',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  withCredentials: false, // change to true if using cookies/session
+  baseURL: 'https://warehouse-management-system-isjh.onrender.com'
 });
 
 export default axiosInstance;
