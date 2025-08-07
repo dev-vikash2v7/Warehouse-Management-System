@@ -4,7 +4,6 @@
   "description": "Warehouse Management System Frontend",
   "type": "module",
   "dependencies": {
-   
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -45,6 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://warehouse-management-system-isjh.onrender.com"
-} 
+  }
+}

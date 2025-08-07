@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, FileText, CheckCircle, AlertCircle, Play } from 'lucide-react';
 import axios from './axios';
@@ -13,6 +13,12 @@ export const UploadPage = () => {
   const onMappingDrop = useCallback((acceptedFiles) => {
     setMappingFile(acceptedFiles[0]);
     setError(null);
+  }, []);
+
+  useEffect(() => {
+    axios.get('/').then((res) => {
+      console.log(res);
+    });
   }, []);
 
   const onSalesDrop = useCallback((acceptedFiles) => {

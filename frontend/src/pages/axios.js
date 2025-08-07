@@ -1,11 +1,8 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://warehouse-management-system-isjh.onrender.com',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  withCredentials: false, // change to true if using cookies/session
+  baseURL: 'https://reacttubevideos.firebaseapp.com',
+
 });
 
 export default axiosInstance;
