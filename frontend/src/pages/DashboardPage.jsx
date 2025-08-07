@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { TrendingUp, Package, AlertTriangle, CheckCircle } from 'lucide-react';
-import axios from 'axios';
+import axios from './axios';
 import Plot from 'react-plotly.js';
 
 export const DashboardPage = () => {

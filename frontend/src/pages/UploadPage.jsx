@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, FileText, CheckCircle, AlertCircle, Play } from 'lucide-react';
-import axios from 'axios';
+import axios from './axios';
 
 export const UploadPage = () => {
   const [mappingFile, setMappingFile] = useState(null);

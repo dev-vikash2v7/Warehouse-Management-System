@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Send, Brain, TrendingUp, AlertTriangle, Lightbulb } from 'lucide-react';
-import axios from 'axios';
+import axios from './axios';
 
 export const AnalyticsPage = () => {
   const [query, setQuery] = useState('');
